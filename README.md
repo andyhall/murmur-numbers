@@ -18,8 +18,9 @@ npm install --save murmur-numbers
 
 **Usage:**
 
-```js    
-var hash = require('murmur-numbers')
+```js
+var seed = 12345
+var hash = require('murmur-numbers')(seed)
 
 hash(5)               // 0.4604153847321868
 hash(0, 5)            // 0.585702647222206

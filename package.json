@@ -1,6 +1,6 @@
 {
   "name": "murmur-numbers",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Murmur3 hash that takes integers as inputs and outputs [0..1]",
   "main": "index.js",
   "scripts": {

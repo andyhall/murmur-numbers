@@ -1,12 +1,12 @@
 'use strict'
 
 
-module.exports = makeMurmur()
+module.exports = makeMurmur
 
 
-function makeMurmur() {
+function makeMurmur(seed) {
 
-    var seed = 123
+    if (typeof seed !== 'number') seed = 123
     var c1 = 0xcc9e2d51
     var c2 = 0x1b873593
     var maxInt = Math.pow(2, 32)
